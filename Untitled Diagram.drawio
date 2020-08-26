@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-26T08:26:34.735Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="AXzxpNR0Zd3mGgBkD9k1" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-26T08:32:55.223Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="63kXS_ZI6kx9QEcBCCT4" version="13.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1186" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,8 +33,11 @@
         <mxCell id="5kI2YmAKgkf4STwn7-c3-3" value="Give fluid information&lt;br&gt;&amp;nbsp;(initial density and velocity)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="440" y="160" width="195" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="5kI2YmAKgkf4STwn7-c3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5kI2YmAKgkf4STwn7-c3-7" target="5kI2YmAKgkf4STwn7-c3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5kI2YmAKgkf4STwn7-c3-7" value="Update the particle position" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="320" width="120" height="50" as="geometry" />
+          <mxGeometry x="160" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5kI2YmAKgkf4STwn7-c3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5kI2YmAKgkf4STwn7-c3-8" target="5kI2YmAKgkf4STwn7-c3-7">
           <mxGeometry relative="1" as="geometry" />
@@ -57,8 +60,8 @@
         <mxCell id="5kI2YmAKgkf4STwn7-c3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5kI2YmAKgkf4STwn7-c3-17" target="5kI2YmAKgkf4STwn7-c3-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5kI2YmAKgkf4STwn7-c3-17" value="N DEM sub-cycles finished?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="145" y="380" width="150" height="60" as="geometry" />
+        <mxCell id="5kI2YmAKgkf4STwn7-c3-17" value="&lt;i&gt;N&lt;sub&gt;sub&lt;/sub&gt;&lt;/i&gt; DEM sub-cycles finished?" style="rhombus;whiteSpace=wrap;html=1;spacingTop=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="137.5" y="380" width="165" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5kI2YmAKgkf4STwn7-c3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="5kI2YmAKgkf4STwn7-c3-18">
           <mxGeometry relative="1" as="geometry">
